@@ -7,10 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		285BA49B1BDB784700FB6EEF /* KBHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 285BA49A1BDB784700FB6EEF /* KBHomeViewController.m */; settings = {ASSET_TAGS = (); }; };
+		285BA49E1BDB7ACF00FB6EEF /* KBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 285BA49D1BDB7ACF00FB6EEF /* KBNavigationController.m */; settings = {ASSET_TAGS = (); }; };
+		285BA4A11BDB7CC300FB6EEF /* KBConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 285BA4A01BDB7CC300FB6EEF /* KBConst.m */; settings = {ASSET_TAGS = (); }; };
+		285BA4AB1BDCC1C500FB6EEF /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 285BA4AA1BDCC1C500FB6EEF /* UIView+Extension.m */; settings = {ASSET_TAGS = (); }; };
+		285BA4B01BDD386200FB6EEF /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 285BA4AF1BDD386200FB6EEF /* UIBarButtonItem+Extension.m */; settings = {ASSET_TAGS = (); }; };
 		28AAB2391BCD6F74000FEDE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28AAB2381BCD6F74000FEDE6 /* main.m */; };
 		28AAB23C1BCD6F74000FEDE6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28AAB23B1BCD6F74000FEDE6 /* AppDelegate.m */; };
-		28AAB23F1BCD6F74000FEDE6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28AAB23E1BCD6F74000FEDE6 /* ViewController.m */; };
-		28AAB2421BCD6F74000FEDE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28AAB2401BCD6F74000FEDE6 /* Main.storyboard */; };
 		28AAB2441BCD6F74000FEDE6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28AAB2431BCD6F74000FEDE6 /* Images.xcassets */; };
 		28AAB2531BCD6F75000FEDE6 /* __HDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28AAB2521BCD6F75000FEDE6 /* __HDTests.m */; };
 /* End PBXBuildFile section */
@@ -26,14 +29,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		285BA4991BDB784700FB6EEF /* KBHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBHomeViewController.h; sourceTree = "<group>"; };
+		285BA49A1BDB784700FB6EEF /* KBHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBHomeViewController.m; sourceTree = "<group>"; };
+		285BA49C1BDB7ACF00FB6EEF /* KBNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBNavigationController.h; sourceTree = "<group>"; };
+		285BA49D1BDB7ACF00FB6EEF /* KBNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBNavigationController.m; sourceTree = "<group>"; };
+		285BA49F1BDB7CC300FB6EEF /* KBConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBConst.h; sourceTree = "<group>"; };
+		285BA4A01BDB7CC300FB6EEF /* KBConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBConst.m; sourceTree = "<group>"; };
+		285BA4A91BDCC1C500FB6EEF /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		285BA4AA1BDCC1C500FB6EEF /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		285BA4AE1BDD386200FB6EEF /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		285BA4AF1BDD386200FB6EEF /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
 		28AAB2331BCD6F74000FEDE6 /* 美团HD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "美团HD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28AAB2371BCD6F74000FEDE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28AAB2381BCD6F74000FEDE6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		28AAB23A1BCD6F74000FEDE6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		28AAB23B1BCD6F74000FEDE6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		28AAB23D1BCD6F74000FEDE6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		28AAB23E1BCD6F74000FEDE6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		28AAB2411BCD6F74000FEDE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		28AAB2431BCD6F74000FEDE6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		28AAB24C1BCD6F75000FEDE6 /* 美团HDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "美团HDTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28AAB2511BCD6F75000FEDE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -79,12 +89,18 @@
 		28AAB2351BCD6F74000FEDE6 /* 美团HD */ = {
 			isa = PBXGroup;
 			children = (
+				285BA4A91BDCC1C500FB6EEF /* UIView+Extension.h */,
+				285BA4AA1BDCC1C500FB6EEF /* UIView+Extension.m */,
+				285BA4AE1BDD386200FB6EEF /* UIBarButtonItem+Extension.h */,
+				285BA4AF1BDD386200FB6EEF /* UIBarButtonItem+Extension.m */,
 				28AAB23A1BCD6F74000FEDE6 /* AppDelegate.h */,
 				28AAB23B1BCD6F74000FEDE6 /* AppDelegate.m */,
-				28AAB23D1BCD6F74000FEDE6 /* ViewController.h */,
-				28AAB23E1BCD6F74000FEDE6 /* ViewController.m */,
-				28AAB2401BCD6F74000FEDE6 /* Main.storyboard */,
-				28AAB2431BCD6F74000FEDE6 /* Images.xcassets */,
+				285BA4991BDB784700FB6EEF /* KBHomeViewController.h */,
+				285BA49A1BDB784700FB6EEF /* KBHomeViewController.m */,
+				285BA49C1BDB7ACF00FB6EEF /* KBNavigationController.h */,
+				285BA49D1BDB7ACF00FB6EEF /* KBNavigationController.m */,
+				285BA49F1BDB7CC300FB6EEF /* KBConst.h */,
+				285BA4A01BDB7CC300FB6EEF /* KBConst.m */,
 				28AAB2361BCD6F74000FEDE6 /* Supporting Files */,
 			);
 			path = "美团HD";
@@ -93,6 +109,7 @@
 		28AAB2361BCD6F74000FEDE6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				28AAB2431BCD6F74000FEDE6 /* Images.xcassets */,
 				28AAB2371BCD6F74000FEDE6 /* Info.plist */,
 				28AAB2381BCD6F74000FEDE6 /* main.m */,
 			);
@@ -197,7 +214,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28AAB2421BCD6F74000FEDE6 /* Main.storyboard in Resources */,
 				28AAB2441BCD6F74000FEDE6 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,8 +232,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28AAB23F1BCD6F74000FEDE6 /* ViewController.m in Sources */,
+				285BA4AB1BDCC1C500FB6EEF /* UIView+Extension.m in Sources */,
+				285BA4B01BDD386200FB6EEF /* UIBarButtonItem+Extension.m in Sources */,
+				285BA49E1BDB7ACF00FB6EEF /* KBNavigationController.m in Sources */,
+				285BA4A11BDB7CC300FB6EEF /* KBConst.m in Sources */,
 				28AAB23C1BCD6F74000FEDE6 /* AppDelegate.m in Sources */,
+				285BA49B1BDB784700FB6EEF /* KBHomeViewController.m in Sources */,
 				28AAB2391BCD6F74000FEDE6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,17 +259,6 @@
 			targetProxy = 28AAB24D1BCD6F75000FEDE6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		28AAB2401BCD6F74000FEDE6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				28AAB2411BCD6F74000FEDE6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		28AAB2541BCD6F75000FEDE6 /* Debug */ = {
@@ -409,6 +418,7 @@
 				28AAB2581BCD6F75000FEDE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		28AAB2591BCD6F75000FEDE6 /* Build configuration list for PBXNativeTarget "美团HDTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +427,7 @@
 				28AAB25B1BCD6F75000FEDE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
