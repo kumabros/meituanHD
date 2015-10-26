@@ -10,6 +10,7 @@
 #import "KBConst.h"
 #import "UIBarButtonItem+Extension.h"
 #import "UIView+Extension.h"
+#import "KBHomeTopItem.h"
 
 @interface KBHomeViewController ()
 
@@ -46,7 +47,25 @@ static NSString * const reuseIdentifier = @"Cell";
 #pragma mark - 设置导航栏内容
 - (void)setupLeftNav
 {
-
+    //logo
+    UIBarButtonItem *logo = [[UIBarButtonItem alloc]initWithImage:[UIImage imageNamed:@"icon_meituan_logo"] style:UIBarButtonItemStyleDone target:nil action:nil];
+    logo.enabled = NO;
+    
+    //category
+    KBHomeTopItem *categoryItem = [KBHomeTopItem item];
+    UIBarButtonItem *category = [[UIBarButtonItem alloc]initWithCustomView:categoryItem];
+    
+    //city
+    KBHomeTopItem *cityItem = [KBHomeTopItem item];
+    UIBarButtonItem *city = [[UIBarButtonItem alloc]initWithCustomView:cityItem];
+    
+    //sort
+    KBHomeTopItem *sortItem = [KBHomeTopItem item];
+    UIBarButtonItem *sort = [[UIBarButtonItem alloc]initWithCustomView:sortItem];
+    
+    //将图标加入数组中显示
+    self.navigationItem.leftBarButtonItems = @[logo,category,city,sort];
+    
 }
 
 - (void)setupRightNav
