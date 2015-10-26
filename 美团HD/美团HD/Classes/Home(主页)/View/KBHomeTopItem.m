@@ -8,10 +8,21 @@
 
 #import "KBHomeTopItem.h"
 
+@interface KBHomeTopItem()
+@property (weak, nonatomic) IBOutlet UIButton *iconButton;
+
+@end
+
 @implementation KBHomeTopItem
+
 
 + (instancetype)item
 {
     return [[[NSBundle mainBundle] loadNibNamed:@"KBHomeTopItem" owner:nil options:nil] firstObject];
+}
+
+- (void)addTarget:(id)target action:(SEL)action
+{
+    [self.iconButton addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];
 }
 @end

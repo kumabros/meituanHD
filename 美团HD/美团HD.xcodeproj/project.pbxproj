@@ -7,15 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		285BA49B1BDB784700FB6EEF /* KBHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 285BA49A1BDB784700FB6EEF /* KBHomeViewController.m */; };
-		285BA49E1BDB7ACF00FB6EEF /* KBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 285BA49D1BDB7ACF00FB6EEF /* KBNavigationController.m */; };
-		285BA4A11BDB7CC300FB6EEF /* KBConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 285BA4A01BDB7CC300FB6EEF /* KBConst.m */; };
-		285BA4AB1BDCC1C500FB6EEF /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 285BA4AA1BDCC1C500FB6EEF /* UIView+Extension.m */; };
-		285BA4B01BDD386200FB6EEF /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 285BA4AF1BDD386200FB6EEF /* UIBarButtonItem+Extension.m */; };
-		289770511BDE6C0900D0B5B7 /* KBHomeTopItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 289770501BDE6C0900D0B5B7 /* KBHomeTopItem.xib */; };
-		289770541BDE71FF00D0B5B7 /* KBHomeTopItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 289770531BDE71FF00D0B5B7 /* KBHomeTopItem.m */; };
-		28AAB2391BCD6F74000FEDE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28AAB2381BCD6F74000FEDE6 /* main.m */; };
-		28AAB23C1BCD6F74000FEDE6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28AAB23B1BCD6F74000FEDE6 /* AppDelegate.m */; };
+		2897706E1BDE845F00D0B5B7 /* KBHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289770591BDE845F00D0B5B7 /* KBHomeViewController.m */; };
+		2897706F1BDE845F00D0B5B7 /* KBHomeTopItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2897705D1BDE845F00D0B5B7 /* KBHomeTopItem.m */; };
+		289770701BDE845F00D0B5B7 /* KBHomeTopItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2897705E1BDE845F00D0B5B7 /* KBHomeTopItem.xib */; };
+		289770711BDE845F00D0B5B7 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 289770621BDE845F00D0B5B7 /* UIBarButtonItem+Extension.m */; };
+		289770721BDE845F00D0B5B7 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 289770641BDE845F00D0B5B7 /* UIView+Extension.m */; };
+		289770731BDE845F00D0B5B7 /* KBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289770671BDE845F00D0B5B7 /* KBNavigationController.m */; };
+		289770741BDE845F00D0B5B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2897706A1BDE845F00D0B5B7 /* AppDelegate.m */; };
+		289770751BDE845F00D0B5B7 /* KBConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 2897706C1BDE845F00D0B5B7 /* KBConst.m */; };
+		289770761BDE845F00D0B5B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2897706D1BDE845F00D0B5B7 /* main.m */; };
+		2897707A1BDE864100D0B5B7 /* KBHomeDropdown.xib in Resources */ = {isa = PBXBuildFile; fileRef = 289770791BDE864100D0B5B7 /* KBHomeDropdown.xib */; };
+		2897707D1BDE870600D0B5B7 /* KBHomeDropdown.m in Sources */ = {isa = PBXBuildFile; fileRef = 2897707C1BDE870600D0B5B7 /* KBHomeDropdown.m */; };
 		28AAB2441BCD6F74000FEDE6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28AAB2431BCD6F74000FEDE6 /* Images.xcassets */; };
 		28AAB2531BCD6F75000FEDE6 /* __HDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28AAB2521BCD6F75000FEDE6 /* __HDTests.m */; };
 /* End PBXBuildFile section */
@@ -31,24 +33,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		285BA4991BDB784700FB6EEF /* KBHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBHomeViewController.h; sourceTree = "<group>"; };
-		285BA49A1BDB784700FB6EEF /* KBHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBHomeViewController.m; sourceTree = "<group>"; };
-		285BA49C1BDB7ACF00FB6EEF /* KBNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBNavigationController.h; sourceTree = "<group>"; };
-		285BA49D1BDB7ACF00FB6EEF /* KBNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBNavigationController.m; sourceTree = "<group>"; };
-		285BA49F1BDB7CC300FB6EEF /* KBConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBConst.h; sourceTree = "<group>"; };
-		285BA4A01BDB7CC300FB6EEF /* KBConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBConst.m; sourceTree = "<group>"; };
-		285BA4A91BDCC1C500FB6EEF /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
-		285BA4AA1BDCC1C500FB6EEF /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
-		285BA4AE1BDD386200FB6EEF /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
-		285BA4AF1BDD386200FB6EEF /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
-		289770501BDE6C0900D0B5B7 /* KBHomeTopItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KBHomeTopItem.xib; sourceTree = "<group>"; };
-		289770521BDE71FF00D0B5B7 /* KBHomeTopItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KBHomeTopItem.h; path = ../KBHomeTopItem.h; sourceTree = "<group>"; };
-		289770531BDE71FF00D0B5B7 /* KBHomeTopItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KBHomeTopItem.m; path = ../KBHomeTopItem.m; sourceTree = "<group>"; };
+		289770581BDE845F00D0B5B7 /* KBHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBHomeViewController.h; sourceTree = "<group>"; };
+		289770591BDE845F00D0B5B7 /* KBHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBHomeViewController.m; sourceTree = "<group>"; };
+		2897705C1BDE845F00D0B5B7 /* KBHomeTopItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBHomeTopItem.h; sourceTree = "<group>"; };
+		2897705D1BDE845F00D0B5B7 /* KBHomeTopItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBHomeTopItem.m; sourceTree = "<group>"; };
+		2897705E1BDE845F00D0B5B7 /* KBHomeTopItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KBHomeTopItem.xib; sourceTree = "<group>"; };
+		289770611BDE845F00D0B5B7 /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		289770621BDE845F00D0B5B7 /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
+		289770631BDE845F00D0B5B7 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		289770641BDE845F00D0B5B7 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		289770661BDE845F00D0B5B7 /* KBNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBNavigationController.h; sourceTree = "<group>"; };
+		289770671BDE845F00D0B5B7 /* KBNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBNavigationController.m; sourceTree = "<group>"; };
+		289770691BDE845F00D0B5B7 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2897706A1BDE845F00D0B5B7 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2897706B1BDE845F00D0B5B7 /* KBConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBConst.h; sourceTree = "<group>"; };
+		2897706C1BDE845F00D0B5B7 /* KBConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBConst.m; sourceTree = "<group>"; };
+		2897706D1BDE845F00D0B5B7 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		289770791BDE864100D0B5B7 /* KBHomeDropdown.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KBHomeDropdown.xib; sourceTree = "<group>"; };
+		2897707B1BDE870600D0B5B7 /* KBHomeDropdown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBHomeDropdown.h; sourceTree = "<group>"; };
+		2897707C1BDE870600D0B5B7 /* KBHomeDropdown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBHomeDropdown.m; sourceTree = "<group>"; };
 		28AAB2331BCD6F74000FEDE6 /* 美团HD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "美团HD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28AAB2371BCD6F74000FEDE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		28AAB2381BCD6F74000FEDE6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		28AAB23A1BCD6F74000FEDE6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		28AAB23B1BCD6F74000FEDE6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		28AAB2431BCD6F74000FEDE6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		28AAB24C1BCD6F75000FEDE6 /* 美团HDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "美团HDTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28AAB2511BCD6F75000FEDE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -73,6 +78,96 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		289770551BDE845F00D0B5B7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				289770561BDE845F00D0B5B7 /* Home(主页) */,
+				2897705F1BDE845F00D0B5B7 /* Main(主要) */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		289770561BDE845F00D0B5B7 /* Home(主页) */ = {
+			isa = PBXGroup;
+			children = (
+				289770571BDE845F00D0B5B7 /* Controller */,
+				2897705A1BDE845F00D0B5B7 /* Model */,
+				2897705B1BDE845F00D0B5B7 /* View */,
+			);
+			path = "Home(主页)";
+			sourceTree = "<group>";
+		};
+		289770571BDE845F00D0B5B7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				289770581BDE845F00D0B5B7 /* KBHomeViewController.h */,
+				289770591BDE845F00D0B5B7 /* KBHomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2897705A1BDE845F00D0B5B7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2897705B1BDE845F00D0B5B7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2897705C1BDE845F00D0B5B7 /* KBHomeTopItem.h */,
+				2897705D1BDE845F00D0B5B7 /* KBHomeTopItem.m */,
+				2897705E1BDE845F00D0B5B7 /* KBHomeTopItem.xib */,
+				2897707B1BDE870600D0B5B7 /* KBHomeDropdown.h */,
+				2897707C1BDE870600D0B5B7 /* KBHomeDropdown.m */,
+				289770791BDE864100D0B5B7 /* KBHomeDropdown.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2897705F1BDE845F00D0B5B7 /* Main(主要) */ = {
+			isa = PBXGroup;
+			children = (
+				289770601BDE845F00D0B5B7 /* Category */,
+				289770651BDE845F00D0B5B7 /* Controller */,
+				289770681BDE845F00D0B5B7 /* Other */,
+			);
+			path = "Main(主要)";
+			sourceTree = "<group>";
+		};
+		289770601BDE845F00D0B5B7 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				289770611BDE845F00D0B5B7 /* UIBarButtonItem+Extension.h */,
+				289770621BDE845F00D0B5B7 /* UIBarButtonItem+Extension.m */,
+				289770631BDE845F00D0B5B7 /* UIView+Extension.h */,
+				289770641BDE845F00D0B5B7 /* UIView+Extension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		289770651BDE845F00D0B5B7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				289770661BDE845F00D0B5B7 /* KBNavigationController.h */,
+				289770671BDE845F00D0B5B7 /* KBNavigationController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		289770681BDE845F00D0B5B7 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				289770691BDE845F00D0B5B7 /* AppDelegate.h */,
+				2897706A1BDE845F00D0B5B7 /* AppDelegate.m */,
+				2897706B1BDE845F00D0B5B7 /* KBConst.h */,
+				2897706C1BDE845F00D0B5B7 /* KBConst.m */,
+				2897706D1BDE845F00D0B5B7 /* main.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
 		28AAB22A1BCD6F74000FEDE6 = {
 			isa = PBXGroup;
 			children = (
@@ -94,21 +189,7 @@
 		28AAB2351BCD6F74000FEDE6 /* 美团HD */ = {
 			isa = PBXGroup;
 			children = (
-				285BA4A91BDCC1C500FB6EEF /* UIView+Extension.h */,
-				285BA4AA1BDCC1C500FB6EEF /* UIView+Extension.m */,
-				285BA4AE1BDD386200FB6EEF /* UIBarButtonItem+Extension.h */,
-				285BA4AF1BDD386200FB6EEF /* UIBarButtonItem+Extension.m */,
-				28AAB23A1BCD6F74000FEDE6 /* AppDelegate.h */,
-				28AAB23B1BCD6F74000FEDE6 /* AppDelegate.m */,
-				285BA4991BDB784700FB6EEF /* KBHomeViewController.h */,
-				285BA49A1BDB784700FB6EEF /* KBHomeViewController.m */,
-				285BA49C1BDB7ACF00FB6EEF /* KBNavigationController.h */,
-				285BA49D1BDB7ACF00FB6EEF /* KBNavigationController.m */,
-				285BA49F1BDB7CC300FB6EEF /* KBConst.h */,
-				285BA4A01BDB7CC300FB6EEF /* KBConst.m */,
-				289770521BDE71FF00D0B5B7 /* KBHomeTopItem.h */,
-				289770531BDE71FF00D0B5B7 /* KBHomeTopItem.m */,
-				289770501BDE6C0900D0B5B7 /* KBHomeTopItem.xib */,
+				289770551BDE845F00D0B5B7 /* Classes */,
 				28AAB2361BCD6F74000FEDE6 /* Supporting Files */,
 			);
 			path = "美团HD";
@@ -119,7 +200,6 @@
 			children = (
 				28AAB2431BCD6F74000FEDE6 /* Images.xcassets */,
 				28AAB2371BCD6F74000FEDE6 /* Info.plist */,
-				28AAB2381BCD6F74000FEDE6 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -222,8 +302,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				289770511BDE6C0900D0B5B7 /* KBHomeTopItem.xib in Resources */,
+				289770701BDE845F00D0B5B7 /* KBHomeTopItem.xib in Resources */,
 				28AAB2441BCD6F74000FEDE6 /* Images.xcassets in Resources */,
+				2897707A1BDE864100D0B5B7 /* KBHomeDropdown.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,14 +322,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				285BA4AB1BDCC1C500FB6EEF /* UIView+Extension.m in Sources */,
-				285BA4B01BDD386200FB6EEF /* UIBarButtonItem+Extension.m in Sources */,
-				289770541BDE71FF00D0B5B7 /* KBHomeTopItem.m in Sources */,
-				285BA49E1BDB7ACF00FB6EEF /* KBNavigationController.m in Sources */,
-				285BA4A11BDB7CC300FB6EEF /* KBConst.m in Sources */,
-				28AAB23C1BCD6F74000FEDE6 /* AppDelegate.m in Sources */,
-				285BA49B1BDB784700FB6EEF /* KBHomeViewController.m in Sources */,
-				28AAB2391BCD6F74000FEDE6 /* main.m in Sources */,
+				2897706F1BDE845F00D0B5B7 /* KBHomeTopItem.m in Sources */,
+				289770731BDE845F00D0B5B7 /* KBNavigationController.m in Sources */,
+				289770761BDE845F00D0B5B7 /* main.m in Sources */,
+				289770751BDE845F00D0B5B7 /* KBConst.m in Sources */,
+				289770741BDE845F00D0B5B7 /* AppDelegate.m in Sources */,
+				289770721BDE845F00D0B5B7 /* UIView+Extension.m in Sources */,
+				2897707D1BDE870600D0B5B7 /* KBHomeDropdown.m in Sources */,
+				289770711BDE845F00D0B5B7 /* UIBarButtonItem+Extension.m in Sources */,
+				2897706E1BDE845F00D0B5B7 /* KBHomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

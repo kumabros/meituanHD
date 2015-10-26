@@ -12,4 +12,7 @@
 
 + (instancetype)item;
 
+
+- (void)addTarget:(id)target action:(SEL)action;
+
 @end

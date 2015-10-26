@@ -53,18 +53,21 @@ static NSString * const reuseIdentifier = @"Cell";
     
     //category
     KBHomeTopItem *categoryItem = [KBHomeTopItem item];
+    [categoryItem addTarget:self action:@selector(categoryClick)];
     UIBarButtonItem *category = [[UIBarButtonItem alloc]initWithCustomView:categoryItem];
     
     //city
-    KBHomeTopItem *cityItem = [KBHomeTopItem item];
-    UIBarButtonItem *city = [[UIBarButtonItem alloc]initWithCustomView:cityItem];
+    KBHomeTopItem *districtItem = [KBHomeTopItem item];
+    [districtItem addTarget:self action:@selector(districtClick)];
+    UIBarButtonItem *district = [[UIBarButtonItem alloc]initWithCustomView:districtItem];
     
     //sort
     KBHomeTopItem *sortItem = [KBHomeTopItem item];
+    [sortItem addTarget:self action:@selector(sortClick)];
     UIBarButtonItem *sort = [[UIBarButtonItem alloc]initWithCustomView:sortItem];
     
     //将图标加入数组中显示
-    self.navigationItem.leftBarButtonItems = @[logo,category,city,sort];
+    self.navigationItem.leftBarButtonItems = @[logo,category,district,sort];
     
 }
 
@@ -81,6 +84,21 @@ static NSString * const reuseIdentifier = @"Cell";
     //将图标加入数组中显示
     self.navigationItem.rightBarButtonItems = @[search,map];
 }
+
+#pragma mark - 顶部item点击方法
+- (void)categoryClick
+{
+    KBLog(@"categoryClick");
+}
+
+- (void)districtClick
+{
+    KBLog(@"districtClick");}
+
+- (void)sortClick
+{
+    KBLog(@"sortClick");}
+
 #pragma mark <UICollectionViewDataSource>
 
 - (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView {
